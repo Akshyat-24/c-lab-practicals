@@ -7,9 +7,10 @@ int main() {
     int a = 10;
     int *p = &a;
 
-    printf("%p\n", p);
+    printf("%u\n", p);
     p++;
-    printf("%p\n", p);
+    
+    printf("%u\n", p);
 }
 
 

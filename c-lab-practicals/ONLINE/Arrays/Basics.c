@@ -15,5 +15,12 @@ int main(int argc, char const *argv[])
 
     int sum = prices[0]+prices[1]+prices[2];
     printf("%d" ,sum);
+
+
+
+
+
+    // Array is a pointer which represents the 0 location so 
+    // int*ptr = &arr[0] or *ptr = arr same thing 
     return 0;
 }
