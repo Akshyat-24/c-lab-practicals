@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
     scanf("%d"  , &n);
     {
         printf("\n ENter element NO. %d" , i+1);
-        scanf("%d" , &arr[i]);
+        scanf("%d" , &arr[i]);f
     }
 
     printf("\nArray Elements are : ");

@@ -21,22 +21,22 @@ int main(int argc, char const *argv[])
     }
      
 
-    // int marks;
-    // scanf("%d" , &marks);
+    int marks;
+    scanf("%d" , &marks);
 
 
-    // if(marks >= 90){
-    //     printf("A\n");
-    //     printf("Pass");
-    // }
-    // else if (marks >=80 && marks <80){
-    //     printf("C");
-    //     printf("Pass\n");
+    if(marks >= 90){
+        printf("A\n");
+        printf("Pass");
+    }
+    else if (marks >=80 && marks <80){
+        printf("C");
+        printf("Pass\n");
 
-    // }
-    // else if (marks >= 60 && marks<70){
-    //     printf("D");
-    // }
+    }
+    else if (marks >= 60 && marks<70){
+        printf("D");
+    }
 
 
     // Leap Year 

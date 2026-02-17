@@ -4,6 +4,8 @@
 
 int main()
 {
+
+
     int arr[] = {1,2,3,4};
     int *p = arr;
 
@@ -14,14 +16,14 @@ int main()
     int *pt1 = &arr[3];
     int *pt2 = &arr[1];
     // C does not return bytes difference it returns no. of elements between pointers 
-    printf("\n%u" , pt1-pt2);
+    printf("\n%u" , pt1-pt2);       
     // diff comes in datatypes not bytes like 4 bytes for int - 1 difference 
     //and datatype should be same ;
     // Comparison also can happen and result will come in the form of true (1) and false(0) 
     // pt2 = &arr[3];
     printf("\n%d" , pt1 == pt2);
     return 0;
-}
+
 
 
 

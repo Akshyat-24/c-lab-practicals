@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     int age = 22;
     // * -> Value at address operator 
     // & -> address of operator 
-    int*ptr = &age;
+    int *ptr = &age;
 
     // To see the value of the address 
     int _age = *ptr;  //-> Pointer Pe jo address store hai uski value 
