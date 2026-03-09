@@ -13,8 +13,10 @@ int main(int argc, char const *argv[])
     printf("x= %d\n" , x);
     printf("*ptr = %d\n" , *ptr);
     *ptr += 5; // x = 5
-
-
+    
+    
     (*ptr)++; // *ptr = *ptr +1  So x = 6 , *ptr = 6
+    printf("x= %d\n" , x);
+    
     return 0;
 }
